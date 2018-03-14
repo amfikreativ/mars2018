@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+<p>MAX-X: {{ maxX }}</p>
+<p>MAX-Y: {{ maxY }}</p>
+
+
+<p>X: {{ movX }}</p>
+<p>Y: {{ movY }}</p>
+<p>Z: {{ movZ }}</p>
+
+<div class="ball" [ngStyle]="posObj"></div>
+
+
+<p>X: {{ posX }}</p>
+<p>Y: {{ posY }}</p>
+<p>Z: {{ posZ }}</p>
+
+<!--
+<p>{{ movX  | json }}</p>
+<p>{{ movY  | json }}</p>
+<p>{{ movZ  | json }}</p>
+-->
+
+</ion-content>
+ 

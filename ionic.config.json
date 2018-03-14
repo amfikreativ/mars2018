@@ -1,0 +1,8 @@
+{
+  "name": "mars2018",
+  "app_id": "3e129299",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
